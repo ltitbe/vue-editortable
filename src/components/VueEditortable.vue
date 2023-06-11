@@ -223,7 +223,7 @@
   import Requests from '../mixins/Requests';
   import Pagination from '../mixins/Pagination';
   import Validator from '../mixins/Validator';
-  import VetEventBus from '../helpers/event-bus';
+  import EventBus from '../helpers/event-bus';
 
   export default {
     props: {
@@ -317,12 +317,12 @@
       vm.setData();
       window.addEventListener('keydown', vm.shortcuts);
       window.addEventListener('keyup', vm.shortcuts);
-      VetEventBus.$on('resizeTable', () => {
+      EventBus.$on('resizeTable', () => {
         this.resetTableWidths();
       });
     },
     beforeDestroy() {
-      VetEventBus.$off('resizeTable', () => {
+      EventBus.$off('resizeTable', () => {
         this.resetTableWidths();
       });
     },

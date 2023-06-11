@@ -209,16 +209,16 @@
 </template>
 
 <script>
-  import 'vue-awesome/icons/long-arrow-up';
-  import 'vue-awesome/icons/long-arrow-down';
-  import 'vue-awesome/icons/refresh';
-  import 'vue-awesome/icons/spinner';
-  import 'vue-awesome/icons/times';
-  import 'vue-awesome/icons/eye';
-  import 'vue-awesome/icons/plus';
-  import 'vue-awesome/icons/trash';
-  import 'vue-awesome/icons/arrow-left';
-  import 'vue-awesome/icons/arrow-right';
+  import 'vue-awesome/icons/long-arrow-up.js';
+  import 'vue-awesome/icons/long-arrow-down.js';
+  import 'vue-awesome/icons/refresh.js';
+  import 'vue-awesome/icons/spinner.js';
+  import 'vue-awesome/icons/times.js';
+  import 'vue-awesome/icons/eye.js';
+  import 'vue-awesome/icons/plus.js';
+  import 'vue-awesome/icons/trash.js';
+  import 'vue-awesome/icons/arrow-left.js';
+  import 'vue-awesome/icons/arrow-right.js';
   import Icon from 'vue-awesome/components/Icon.vue';
   import Requests from '../mixins/Requests';
   import Pagination from '../mixins/Pagination';

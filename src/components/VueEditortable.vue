@@ -219,7 +219,7 @@
   import 'vue-awesome/icons/trash';
   import 'vue-awesome/icons/arrow-left';
   import 'vue-awesome/icons/arrow-right';
-  import Icon from 'vue-awesome/components/Icon';
+  import Icon from 'vue-awesome/components/Icon.vue';
   import Requests from '../mixins/Requests';
   import Pagination from '../mixins/Pagination';
   import Validator from '../mixins/Validator';

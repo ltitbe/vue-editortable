@@ -1255,7 +1255,7 @@
 </script>
 
 <style>
-  @import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
+  @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
 
   /* Helpers */
   .align-l {
